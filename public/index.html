@@ -55,8 +55,8 @@
     <a href="#inicio" class="top__logo" aria-label="Agua Natural, inicio"><img src="img/logo.png" alt="Natural Life balance" width="593" height="192"></a>
     <nav class="top__nav" aria-label="Principal">
       <a href="#inicio" class="is-active">Inicio</a>
+      <a href="#pedidos" class="nav-order">Pedidos</a>
       <a href="#como-funciona">Cómo funciona</a>
-      <a href="#pedidos">Pedidos</a>
       <a href="#cobertura">Cobertura</a>
       <a href="#contacto">Contacto</a>
     </nav>
@@ -80,25 +80,14 @@
     </div>
   </section>
 
-  <section class="how" id="como-funciona">
-    <div class="wrap">
-      <h2 class="h2 h2--slash">¿Cómo funciona?</h2>
-      <ol class="how__list">
-        <li class="how__card"><svg class="how__ico"><use href="#i-cart"/></svg><h3>Elige tu pedido</h3><p>Selecciona cuántos garrafones necesitas o un servicio recurrente.</p></li>
-        <li class="how__sep" aria-hidden="true"><svg><use href="#i-chev"/></svg></li>
-        <li class="how__card"><svg class="how__ico"><use href="#i-cal"/></svg><h3>Indica dónde y cuándo</h3><p>Agrega tu dirección, referencias y el día y horario de entrega.</p></li>
-        <li class="how__sep" aria-hidden="true"><svg><use href="#i-chev"/></svg></li>
-        <li class="how__card"><svg class="how__ico how__ico--wa"><use href="#i-wa"/></svg><h3>Confirma por WhatsApp</h3><p>Te preparamos un mensaje con los detalles de tu pedido para que lo envíes.</p></li>
-      </ol>
-    </div>
-  </section>
-
   <section class="order" id="pedidos">
     <div class="wrap order__grid">
       <div class="order__img"><img src="img/garrafon.webp" alt="Garrafón de 19 litros de Agua Natural" width="640" height="842" loading="lazy"></div>
 
       <div class="order__main">
-        <h2 class="h2 h2--under">Pide tu agua</h2>
+        <p class="order__kicker">Pedido a domicilio · León</p>
+        <h2 class="h2 h2--under order__title">Pide tu agua</h2>
+        <p class="order__lead">Elige cuántos garrafones, indica dónde y cuándo, y envía tu pedido por WhatsApp en menos de un minuto.</p>
         <button type="button" class="svc" id="svc-rec" aria-pressed="false">
           <span class="svc__ico"><svg><use href="#i-loop"/></svg></span>
           <span><strong>Servicio recurrente</strong><small>Programa tus entregas y no te quedes sin agua.</small></span>
@@ -108,11 +97,10 @@
           <span><strong>Abastecimiento para negocios</strong><small>Soluciones de agua para oficinas, comercios y espacios de trabajo.</small></span>
         </a>
         <div class="prod">
-          <span class="prod__name" id="prod-name">Garrafón 19 L</span>
+          <span class="prod__name"><span id="prod-name">Garrafón 19 L</span><small id="prod-price"></small></span>
           <span class="qty" aria-label="Cantidad"><button type="button" data-step="-1" aria-label="Menos">−</button><span id="prod-q" aria-live="polite">1</span><button type="button" data-step="1" aria-label="Más">+</button></span>
           <button type="button" class="btn btn--add" id="prod-add"><svg class="ico"><use href="#i-cart"/></svg><span>Agregar</span></button>
         </div>
-        <p class="prod__price" id="prod-price"></p>
       </div>
 
       <aside class="cart" id="pedido" aria-labelledby="cart-title">
@@ -145,6 +133,19 @@
           <button type="submit" class="btn btn--wa btn--block"><svg class="ico"><use href="#i-wa"/></svg><span>Enviar pedido por WhatsApp</span><svg class="ico ico--arrow"><use href="#i-arrow"/></svg></button>
         </form>
       </aside>
+    </div>
+  </section>
+
+  <section class="how" id="como-funciona">
+    <div class="wrap">
+      <h2 class="h2 h2--slash">¿Cómo funciona?</h2>
+      <ol class="how__list">
+        <li class="how__card"><svg class="how__ico"><use href="#i-cart"/></svg><h3>Elige tu pedido</h3><p>Selecciona cuántos garrafones necesitas o un servicio recurrente.</p></li>
+        <li class="how__sep" aria-hidden="true"><svg><use href="#i-chev"/></svg></li>
+        <li class="how__card"><svg class="how__ico"><use href="#i-cal"/></svg><h3>Indica dónde y cuándo</h3><p>Agrega tu dirección, referencias y el día y horario de entrega.</p></li>
+        <li class="how__sep" aria-hidden="true"><svg><use href="#i-chev"/></svg></li>
+        <li class="how__card"><svg class="how__ico how__ico--wa"><use href="#i-wa"/></svg><h3>Confirma por WhatsApp</h3><p>Te preparamos un mensaje con los detalles de tu pedido para que lo envíes.</p></li>
+      </ol>
     </div>
   </section>
 
