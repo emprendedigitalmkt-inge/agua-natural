@@ -6,12 +6,11 @@ window.NATURAL = {
   nombre: "Agua Natural",
 
   // WhatsApp que recibe los pedidos: 52 + 10 dígitos, sin espacios.
-  // PENDIENTE confirmar: tomado del diseño (477 774 5359).
   whatsapp: "524777745359",
   telefonoVisible: "477 774 5359",
 
   // Producto que se pide en el sitio. precio: null = se confirma por WhatsApp.
-  producto: { nombre: "Garrafón 20 L", detalle: "Agua purificada", precio: null },
+  producto: { nombre: "Garrafón 20 L", detalle: "Agua purificada", precio: 38 },
 
   // Días y horario de entrega (0 = domingo … 6 = sábado). [apertura, cierre] en horas 24 h.
   horario: { 1: [8, 18], 2: [8, 18], 3: [8, 18], 4: [8, 18], 5: [8, 18], 6: [8, 14] },
