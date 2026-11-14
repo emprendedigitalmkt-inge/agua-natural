@@ -110,7 +110,7 @@
   function message() {
     return [
       `Hola ${C.nombre}, quiero hacer un pedido:`,
-      `• ${qty} ${qty === 1 ? "garrafón" : "garrafones"} de 20 L (${P.detalle.toLowerCase()})${P.precio ? " — " + money(P.precio * qty) : ""}`,
+      `• ${qty} ${qty === 1 ? "garrafón" : "garrafones"} de 19 L (${P.detalle.toLowerCase()})${P.precio ? " — " + money(P.precio * qty) : ""}`,
       ...(recurrente ? [`• Servicio recurrente: ${f("frecuencia").value.toLowerCase()}`] : []),
       "",
       `Dirección: ${f("direccion").value.trim()}`,
