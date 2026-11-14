@@ -1,11 +1,12 @@
-# Agua Natural Life balance · Agua a domicilio (muestra)
+# Agua Natural · Life balance — pedidos a domicilio
 
-Sitio estático (HTML/CSS/JS vanilla) basado en la estructura de Ocean 23. Pedido armado en el sitio y enviado por WhatsApp.
+Sitio estático (HTML/CSS/JS). El cliente arma su pedido (garrafones, servicio recurrente, dirección, día y horario) y se envía por WhatsApp.
 
-## Editar contenido
-Todo lo editable está en `public/js/config.js`: WhatsApp, productos y precios, pedido mínimo, horarios de entrega, días sin servicio y ubicación.
+## Editar
+Todo lo editable está en `public/js/config.js`: WhatsApp, producto y precio, días y horario de entrega, punto de llenado y redes sociales.
 
 ## Pendientes de confirmar con el cliente
-- Número de WhatsApp (hoy apunta al de Colmillo Marca para la demostración)
-- Productos y precios (los actuales son de ejemplo)
-- Radio de cobertura (3 km de ejemplo) y coordenadas exactas del punto de llenado
+- WhatsApp (tomado del diseño: 477 774 5359)
+- Precio del garrafón (hoy: "se confirma por WhatsApp")
+- Horario de entrega (se usó el del punto de llenado: L–V 8–18, Sáb 8–14)
+- Enlaces de Facebook e Instagram
