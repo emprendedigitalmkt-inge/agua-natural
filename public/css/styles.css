@@ -135,7 +135,7 @@ button,input,select{font:inherit;color:inherit}
 .hours li span{font-size:.96rem}
 
 /* CTA */
-.cta{position:relative;background:#06327a url(../img/cta.jpg) 50% 0%/cover;min-height:300px;display:flex;align-items:center}
+.cta{position:relative;background:#06327a url(../img/cta.jpg) 50% 60%/cover;aspect-ratio:3/1;min-height:300px;display:flex;align-items:center}
 .cta__in{display:flex;align-items:center;justify-content:space-between;gap:30px;padding:46px 0}
 .cta__title{margin:0;font-weight:900;font-style:italic;color:#fff;font-size:clamp(2rem,4vw,3.3rem);line-height:1.02;letter-spacing:-.02em;text-shadow:0 4px 20px rgba(0,20,70,.55)}
 .swoosh--light::after{background:linear-gradient(90deg,var(--lime),#d9f05a 70%,transparent)}
@@ -186,7 +186,7 @@ button,input,select{font:inherit;color:inherit}
   .cov{padding:44px 0}
   .cov__grid{grid-template-columns:1fr}
   .cov__img{grid-row:auto}
-  .cta{min-height:0;background-position:50% 50%}
+  .cta{min-height:0;aspect-ratio:auto;background-position:50% 75%}
   .cta__in{flex-direction:column;text-align:center;padding:56px 0}
   .cta .btn{width:100%;white-space:normal}
   .foot__in{flex-direction:column;gap:16px}
